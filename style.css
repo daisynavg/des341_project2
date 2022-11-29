@@ -1,6 +1,65 @@
-* {box-sizing:border-box;
-}
+* {box-sizing:border-box;}
 
 body {
-    margin: 0;
-}
+    margin:0;}
+
+img {width: 100%;}
+
+header {
+    background-image: url('images/sheridan_dark_pattern.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100vw;}
+
+a {
+    text-decoration: none;}
+
+.logo{
+width:40vw;
+margin: auto;}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    margin:0;
+    padding:40px;}
+
+nav a {
+    color: rgba(117, 194, 96, 1);}
+
+nav a:hover {
+    color: rgba(50, 194, 196, 1);}
+
+.specials {
+    background: rgba(244, 232, 207, 1);
+    padding:80px;}
+
+footer {
+    width:100vw;
+    display:flex;
+    justify-content:space-between;
+    background: rgba(39, 148, 87, 1);
+    color: rgba(153, 205, 156, 1);
+    padding:70px;}
+
+footer .right {
+    border-left:1px solid rgba(153, 205, 156, 1);
+    padding-left:60px;}
+
+footer .social {
+    width:40px;
+    padding:8px;}
+
+footer a {color: rgba(153, 205, 156, 1);}
+
+footer p {
+    margin:0;
+    margin-bottom:10px;}
+
+footer button {
+    background: rgba(118, 193, 89, 1);
+    box-shadow: none;
+    border:none;
+    padding:4px 8px;}
