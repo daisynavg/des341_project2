@@ -17,8 +17,10 @@ a {
 
 .logo{
 width:40vw;
-margin: auto;}
+margin: auto;
+}
 
+    
 nav ul{
     list-style:none;
     display:flex;
