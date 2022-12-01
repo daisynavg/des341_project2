@@ -6,7 +6,10 @@ body {
 img {width: 100%;}
 
 header {
+    position: relative;
+    
     background-image: url('images/sheridan_dark_pattern.png');
+    background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
     height:100vh;
@@ -16,10 +19,9 @@ a {
     text-decoration: none;}
 
 .logo{
-width:40vw;
-margin: auto;
-}
-
+    width:40vw;
+    margin: auto;}
+ 
     
 nav ul{
     list-style:none;
@@ -65,3 +67,21 @@ footer button {
     box-shadow: none;
     border:none;
     padding:4px 8px;}
+
+#specials {
+    background: #F4E8CF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.section-title {
+   font-size: 100px;
+}
+
+.sp-imgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
