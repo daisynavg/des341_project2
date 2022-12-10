@@ -18,13 +18,9 @@ a {
     text-decoration: none;}
 
 .logo {
-    position: relative;
-    background-image: url("images/sheridan_logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    height:100%;
-    width:100%;
-    margin-top: -100px;
+    width: 40vw;
+    margin: auto;
+    padding-top: 200px;
 }
  
     
