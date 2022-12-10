@@ -18,12 +18,16 @@ header {
 a {
     text-decoration: none;}
 
-.logo{
-    width:40vw;
-    margin: auto;}
+.logo {
+    width: 40vw;
+    margin: auto;
+
+}
  
     
 nav ul{
+    font-family: jaf-domus, sans-serif;
+    font-size: 150%;
     list-style:none;
     display:flex;
     justify-content:space-between;
@@ -36,25 +40,22 @@ nav a {
 nav a:hover {
     color: rgba(50, 194, 196, 1);}
 
-.specials {
-    background: rgba(244, 232, 207, 1);
-    padding:80px;}
-
 footer {
     width:100vw;
     display:flex;
     justify-content:space-between;
+    flex-direction: row;
     background: rgba(39, 148, 87, 1);
     color: rgba(153, 205, 156, 1);
-    padding:70px;}
+    padding:70px 3% 30px 3%;}
 
 footer .right {
     border-left:1px solid rgba(153, 205, 156, 1);
     padding-left:60px;}
 
 footer .social {
-    width:40px;
-    padding:8px;}
+    width:50px;
+    padding-right:14px;}
 
 footer a {color: rgba(153, 205, 156, 1);}
 
@@ -72,16 +73,110 @@ footer button {
     background: #F4E8CF;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10%; 
+}
+#specials h1{
+    color: #279457;
 }
 
-.section-title {
-   font-size: 100px;
+h1 {
+    font-family: 'signpainter_housescriptRg', cursive, sans-serif;
+    font-weight: normal;
+    margin: 0;
+   font-size: 700%;
+   padding-top: 54px;
+   text-align: center;
 }
 
 .sp-imgs{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 37px;
 }
+
+#sp-img {
+    display: flex;
+    flex-direction: column;
+    inline-size: 30%;
+    overflow-wrap: break-word;
+}
+
+#scoop-promo {
+    background-color: #16351B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+#scoop-promo h1{
+    color: #279457;
+}
+
+h2{
+    margin: 0;
+    font-family: jaf-domus, sans-serif;
+    font-size: 170%;
+    font-weight: normal;
+    color: #99CD9C;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 5px;
+}
+
+#scoop-promo button {
+    background-color: #99CD9C; /* Green */
+    border: none;
+    color: #16351B;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80%;
+    border-radius: 8px;
+}
+
+.bad-price{
+    font-family: jaf-domus, sans-serif;
+    font-size: 100%;
+    color: #679A69;
+    font-variant-numeric: lining-nums;
+    text-decoration: line-through;
+    padding-top: 8px;
+}
+
+.good-price{
+    font-family: jaf-domus, sans-serif;
+    font-size: 150%;
+    color: #279457;
+    font-variant-numeric: lining-nums;
+}
+
+.image-desc{
+    font-family: jaf-domus, sans-serif;
+    font-size: 130%;
+    color: #16351B;
+}
+
+footer p {
+    font-family: jaf-domus, sans-serif;
+    font-size: 150%;  
+    font-variant-numeric: lining-nums;
+}
+
+footer h3{
+    font-family: jaf-domus, sans-serif;
+    font-size: 200%;  
+}
+
 
 
